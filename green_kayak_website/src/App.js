@@ -6,7 +6,6 @@ const App = () => {
     return (
         <Router>
           <Routes>
-            <Route path="/" element={ <App /> }> </Route>
             <Route path="/before-arriving" element={ <BeforeArriving /> }> </Route>
           </Routes>
         </Router>
