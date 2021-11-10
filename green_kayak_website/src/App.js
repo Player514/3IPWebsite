@@ -4,8 +4,9 @@ import BeforeArriving from './pages/before-arriving'
 
 const App = () => {
     return (
-        <Router >
+        <Router>
           <Routes>
+            <Route path="/" element={ <App /> }> </Route>
             <Route path="/before-arriving" element={ <BeforeArriving /> }> </Route>
           </Routes>
         </Router>
