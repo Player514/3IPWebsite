@@ -13,11 +13,11 @@ function BookingPage() {
         <h1>Booking</h1>
         <h3>Location: LETZ SUSHI Christianshavn, Overgarden Neden Vandet 41, 1414 København K </h3>
         <p>Name</p>
-        <TextField />
+        <TextField type={"text"} placeholder={"Enter your name"}/>
         <p>E-mail</p>
-        <TextField />
+        <TextField type={"email"} placeholder={"Enter your e-mail"}/>
         <p>Phonenumber</p>
-        <TextField /> 
+        <TextField type={"number"} placeholder={"Enter your phonenumber"}/> 
         <button onClick={() => navigate('/before-arrival')}>Next</button>
         </div>
       </div>

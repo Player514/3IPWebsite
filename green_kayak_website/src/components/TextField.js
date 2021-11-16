@@ -1,13 +1,14 @@
 import React from 'react'
-import '../styles/textbox.css'
+import '../styles/textfield.css'
 
 function TextField(props) {
     return(
         <div className="text-field">
             <input
-                type="text"
+                type={props.type}
                 value={props.value}
                 onChange={props.onChange}
+                placeholder={props.placeholder}
             />
         </div>
     )
