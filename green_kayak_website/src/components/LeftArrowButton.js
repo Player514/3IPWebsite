@@ -1,9 +1,10 @@
 import React from 'react'
 import LeftArrow from '../assets/images/Left-arrow.png'
+import '../styles/buttons.css'
 
 function LeftArrowButton(props) {
     return(
-        <div className="Left-arrow-button" onClick={props.onClick}>
+        <div className="left-arrow-button" onClick={props.onClick}>
             <img src={LeftArrow} alt="previous page button" />
         </div>
     )

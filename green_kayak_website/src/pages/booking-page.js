@@ -8,12 +8,14 @@ function BookingPage() {
 
     return (
       <div className="BookingPage">
+        <div className="booking-page-content">
         <header className="BookingPage-header">
           <h2>
-            Demo page
+            Booking Page
           </h2>
         </header>
         <RightArrowButton onClick={() => navigate('/before-arrival')} />
+        </div>
       </div>
     );
   }
