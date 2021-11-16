@@ -1,15 +1,15 @@
 import React from 'react'
 
-function BeforeArriving() {
+function BeforeArrival() {
     return (
-      <div className="BeforeArriving">
-        <header className="Before-arriving">
+      <div className="BeforeArrival">
+        <header className="Before-Arrival">
           <h2>
-            Before Arriving
+            Before Arrival
           </h2>
         </header>
       </div>
     );
   }
 
-export default BeforeArriving
+export default BeforeArrival
