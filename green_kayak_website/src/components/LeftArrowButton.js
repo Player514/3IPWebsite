@@ -1,5 +1,5 @@
 import React from 'react'
-import LeftArrow from '../assets/images/Left-arrow.png'
+import LeftArrow from '../assets/images/left-arrow.png'
 import '../styles/buttons.css'
 
 function LeftArrowButton(props) {

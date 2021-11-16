@@ -12,3 +12,9 @@
 
     height: 90vh;
 }
+
+.text-box-area {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
