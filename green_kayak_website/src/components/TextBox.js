@@ -4,7 +4,7 @@ import '../styles/textbox.css'
 function TextBox(props) {
     return(
         <div className="text-box">
-            <p className="text-box-text">{props.text}</p>
+            <p>{props.text}</p>
         </div>
     )
 }
