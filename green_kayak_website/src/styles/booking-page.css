@@ -1,0 +1,16 @@
+
+
+.booking-page-content {
+    display: flex;
+    align-items: center;
+    background-color: #FEFAED;
+    margin-left: 5%;
+    margin-top: 5%;
+    
+    width: 90%;
+    height: 90%;
+}
+
+p {
+    color: white;
+}
