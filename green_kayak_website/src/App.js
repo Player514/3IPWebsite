@@ -1,13 +1,18 @@
 import { React } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import BeforeArriving from './pages/before-arriving'
+import BeforeArrival from './pages/before-arrival'
+import LandingPage from './pages/booking-page';
+
 
 const App = () => {
     return (
         <Router>
+          <div className="app">
           <Routes>
-            <Route path="/before-arriving" element={ <BeforeArriving /> }> </Route>
+            <Route path="/" element={ <LandingPage />} exact />
+            <Route path="/before-arrival" element={ <BeforeArrival /> } exact />
           </Routes>
+          </div>
         </Router>
     )
 }
