@@ -1,5 +1,10 @@
 
 .before-arrival-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     background-color: #FEFAED;
     margin-left: 5%;
     margin-top: 5%;
