@@ -3,13 +3,9 @@ import '../styles/before-arrival.css'
 
 function BeforeArrival() {
     return (
-      <div className="BeforeArrival">
+      <div className="before-arrival">
         <div className="before-arrival-content">
-        <header className="Before-Arrival">
-          <h2>
-            Before Arrival
-          </h2>
-        </header>
+          <p>Content of page</p> 
         </div>
       </div>
     );
