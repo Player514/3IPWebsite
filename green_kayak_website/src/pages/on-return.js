@@ -2,51 +2,50 @@ import React from 'react'
 import { useNavigate } from 'react-router';
 import RightArrowButton from '../components/RightArrowButton';
 import LeftArrowButton from '../components/LeftArrowButton'
-import BeforeArrivalImage from '../assets/images/before-on-arrival.png'
+import OnReturnImage from '../assets/images/on-return.png'
 import NumberText from '../components/NumberText'
 import ActiveDot from '../assets/images/active-dot.png'
 import InactiveDot from '../assets/images/inactive-dot.png'
-import '../styles/on-arrival.css'
+import '../styles/on-return.css'
 
 
-function OnArrival() {
+function OnReturn() {
   const navigate = useNavigate();
 
     return (
-      <div className="on-arrival">
-        <div className="on-arrival-content">
+      <div className="on-return">
+        <div className="on-return-content">
         <div className="step-dots-area">
+          <img className="active-dot" src={InactiveDot} alt="inactive-step" />
           <img className="inactive-dot" src={InactiveDot} alt="inactive-step" />
-          <img className="active-dot" src={ActiveDot} alt="active-step" />
           <img className="inactive-dot" src={InactiveDot} alt="inactive-step" />
-          <img className="inactive-dot" src={InactiveDot} alt="inactive-step" />
+          <img className="inactive-dot" src={ActiveDot} alt="active-step" />
           </div>
 
-          <h1>ON ARRIVAL</h1>
+          <h1>ON RETURN</h1>
             {/* replace this img resource with a gif component later */}
           
           
 
           <div className="gif-area">
-          <img src={BeforeArrivalImage} alt="before arrival placeholder" /> 
+          <img src={OnReturnImage} alt="before arrival placeholder" /> 
           </div>
 
           <div className="text-box-outline" >
             <div className="text-area">
-            <NumberText number="1" text="Be nice to our voluntary hosts"/>
-            <NumberText number="2" text="Show booking number"/>
-            <NumberText number="3" text="Ask how they prefer to handle trash"/>
-            <NumberText number="4" text="Be careful with the equipment"/>
+            <NumberText number="1" text="Weight trash and write it down"/>
+            <NumberText number="2" text="Sort trash and bring it inside"/>
+            <NumberText number="3" text="Check equipment - report if damaged"/>
             </div>
           </div>
 
           <div className="navigation-buttons">
-            <LeftArrowButton onClick={() => navigate('/before-arrival')} />
-            <RightArrowButton onClick={() => navigate('/while-kayaking')} />
+            <LeftArrowButton onClick={() => navigate('/while-kayaking')} />
+            <RightArrowButton onClick={() => navigate('/on-return')} />
           </div>
         </div>
       </div>
     );
   }
 
-export default OnArrival
+export default OnReturn

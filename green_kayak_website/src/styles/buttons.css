@@ -1,9 +1,9 @@
-.right-arrow  {
-    height: 5%;
-    width: 10%;
+.right-arrow-button {
+    display: flex;
+    height: 50px;
 }
 
-.left-arrow  {
-    height: 5%;
-    width: 10%;
+.left-arrow-button {
+    display: flex;
+    height: 50px;
 }
