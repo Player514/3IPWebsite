@@ -19,10 +19,10 @@ function BookingPage() {
             <p>E-mail</p>
             <TextField type={"email"} placeholder={"Enter your e-mail"}/>
             <p>Phonenumber</p>
-            <TextField type={"number"} placeholder={"Enter your phonenumber"}/> 
+            <TextField type={"phone"} placeholder={"Enter your phonenumber"}/> 
           </div>
-          <div className="button-area">
-          <button onClick={() => navigate('/before-arrival')}>Next</button>
+          <div id="button-area">
+          <button id="next-button" onClick={() => navigate('/before-arrival')}>Next</button>
           </div>
       </div>
     );

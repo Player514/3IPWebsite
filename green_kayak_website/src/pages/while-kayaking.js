@@ -44,6 +44,9 @@ function WhileKayaking() {
             <LeftArrowButton onClick={() => navigate('/on-arrival')} />
             <RightArrowButton onClick={() => navigate('/on-return')} />
           </div>
+          <div className="button-area">
+            <button id="book" disabled="true" onClick={() => alert('Disabled')}>Book</button>
+          </div>
         </div>
       </div>
     );

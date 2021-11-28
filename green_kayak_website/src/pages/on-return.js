@@ -1,6 +1,5 @@
 import React from 'react'
 import { useNavigate } from 'react-router';
-import RightArrowButton from '../components/RightArrowButton';
 import LeftArrowButton from '../components/LeftArrowButton'
 import OnReturnImage from '../assets/images/on-return.png'
 import NumberText from '../components/NumberText'
@@ -23,9 +22,6 @@ function OnReturn() {
           </div>
 
           <h1>ON RETURN</h1>
-            {/* replace this img resource with a gif component later */}
-          
-          
 
           <div className="gif-area">
           <img src={OnReturnImage} alt="before arrival placeholder" /> 
@@ -41,7 +37,9 @@ function OnReturn() {
 
           <div className="navigation-buttons">
             <LeftArrowButton onClick={() => navigate('/while-kayaking')} />
-            <RightArrowButton onClick={() => navigate('/on-return')} />
+          </div>
+          <div className="button-area">
+            <button id="book" onClick={() => alert('Booking successfull. Check your email for confirmation')}>Book</button>
           </div>
         </div>
       </div>
