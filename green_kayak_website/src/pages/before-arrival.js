@@ -44,7 +44,7 @@ function BeforeArrival() {
             <RightArrowButton onClick={() => navigate('/on-arrival')} />
           </div>
           <div className="button-area">
-            <button id="book" disabled="true" onClick={() => alert('Disabled')}>Book</button>
+            <button id="book" disabled="true" onClick={() => alert('Disabled')}>BOOK GREEN KAYAK</button>
           </div>
         </div>
       </div>

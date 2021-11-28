@@ -39,7 +39,7 @@ function OnReturn() {
             <LeftArrowButton onClick={() => navigate('/while-kayaking')} />
           </div>
           <div className="button-area">
-            <button id="book" onClick={() => alert('Booking successfull. Check your email for confirmation')}>Book</button>
+            <button id="book" onClick={() => alert('Booking successfull. Check your email for confirmation')}>BOOK GREEN KAYAK</button>
           </div>
         </div>
       </div>

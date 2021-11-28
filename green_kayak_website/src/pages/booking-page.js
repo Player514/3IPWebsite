@@ -22,7 +22,7 @@ function BookingPage() {
             <TextField type={"phone"} placeholder={"Enter your phonenumber"}/> 
           </div>
           <div id="button-area">
-          <button id="next-button" onClick={() => navigate('/before-arrival')}>Next</button>
+          <button id="next-button" onClick={() => navigate('/before-arrival')}>NEXT</button>
           </div>
       </div>
     );
